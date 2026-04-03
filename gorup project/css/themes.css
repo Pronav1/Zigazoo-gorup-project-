@@ -1,0 +1,58 @@
+/* ========================================================================== */
+        body.light-mode {
+            background-color: #fff; color: #0f1419;
+            background-image: radial-gradient(ellipse 120% 80% at 50% -25%, var(--mesh-1), transparent 50%), radial-gradient(ellipse 70% 50% at 100% 30%, var(--mesh-2), transparent 45%);
+            background-attachment: fixed;
+        }
+        body.light-mode .sidebar { border-color: #eff3f4; }
+        body.light-mode .logo { background: linear-gradient(135deg, #0f1419 0%, var(--accent) 45%, var(--accent-mid) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+        body.light-mode .nav-item, body.light-mode .header-title, body.light-mode .username { color: #0f1419; }
+        body.light-mode .compose-tweet { background: rgba(255, 255, 255, 0.85); border-color: #eff3f4; }
+        body.light-mode .compose-tweet:focus-within { box-shadow: 0 0 0 1px var(--accent-soft-2), 0 12px 40px rgba(15, 20, 25, 0.06); }
+        body.light-mode .toast { background: rgba(255, 255, 255, 0.98); border-color: #cfd9de; color: #0f1419; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
+        body.light-mode .toast.success { background: linear-gradient(135deg, rgba(0, 186, 124, 0.12), rgba(255, 255, 255, 0.98)); border-color: rgba(0, 186, 124, 0.35); }
+        body.light-mode .feed-empty p, body.light-mode .media-page-intro, body.light-mode .media-empty { color: #536471; }
+        body.light-mode .media-card { background: rgba(255, 255, 255, 0.92); border-color: #eff3f4; }
+        body.light-mode .media-card:hover { box-shadow: 0 16px 40px rgba(15, 20, 25, 0.08); }
+        body.light-mode .media-card-footer { border-color: #eff3f4; }
+        body.light-mode .media-card-visual-wrap { background: #f7f9f9; }
+        body.light-mode .media-card-name, body.light-mode .media-empty h3 { color: #0f1419; }
+        body.light-mode .nav-item:hover, body.light-mode .user-profile:hover, body.light-mode .tweet:hover, body.light-mode .message-item:hover, body.light-mode .settings-item:hover { background-color: #eff3f4; }
+        body.light-mode .nav-item.active { background: linear-gradient(90deg, var(--accent-soft), transparent); box-shadow: inset 3px 0 0 var(--accent); }
+        body.light-mode .main-content { border-color: #eff3f4; }
+        body.light-mode .header, body.light-mode .explore-search-container { background-color: rgba(255, 255, 255, 0.85); border-color: #eff3f4; }
+        body.light-mode .tab { color: #536471; }
+        body.light-mode .tab.active { color: #0f1419; }
+        body.light-mode .tab:hover { background-color: #eff3f4; }
+        body.light-mode .compose-actions, body.light-mode .tweet { border-color: #eff3f4; }
+        body.light-mode .tweet-input, body.light-mode .search-input, body.light-mode .input-group input, body.light-mode .input-group textarea, body.light-mode .edit-input { color: #0f1419; }
+        body.light-mode .tweet-input::placeholder, body.light-mode .search-input::placeholder { color: #536471; }
+        body.light-mode .handle, body.light-mode .timestamp, body.light-mode .tweet-action, body.light-mode .profile-stats { color: #536471; }
+        body.light-mode .profile-stats span { color: #0f1419; }
+        body.light-mode .modal-content, body.light-mode .emoji-picker { background-color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        body.light-mode .modal-header, body.light-mode .input-group { border-color: #cfd9de; }
+        body.light-mode .modal-header h2 { color: #0f1419; }
+        body.light-mode .modal-save-btn, body.light-mode .follow-btn:not(.following), body.light-mode .edit-profile-btn.not-following { background-color: #0f1419; color: #fff; border-color: transparent;}
+        body.light-mode .follow-btn.following, body.light-mode .edit-profile-btn.following { color: #0f1419 !important; border-color: #cfd9de !important; }
+        body.light-mode .edit-profile-btn { color: #0f1419; border-color: #cfd9de; }
+        body.light-mode .emoji-btn:hover { background-color: #eff3f4; }
+        body.light-mode .profile-avatar { border-color: #fff; }
+        body.light-mode .explore-search-input, body.light-mode .search-bar, body.light-mode .message-search input, body.light-mode .chat-input-row input { background-color: #eff3f4; color: #0f1419; }
+        body.light-mode .explore-search-input:focus { background-color: #fff; border-color: var(--accent); }
+        body.light-mode .message-search, body.light-mode .message-item, body.light-mode .settings-item, body.light-mode .toggle-row, body.light-mode .reply-item { border-color: #eff3f4; }
+        body.light-mode .chat-back svg, body.light-mode .call-icon { fill: #0f1419; }
+        body.light-mode .chat-bubble.received { background-color: #eff3f4; color: #0f1419; }
+        body.light-mode .chat-input-area { background-color: #fff; border-color: #eff3f4; }
+        body.light-mode .settings-item-info h3, body.light-mode .trending-hashtag { color: #0f1419; }
+        body.light-mode .right-sidebar { border-color: #eff3f4; }
+        body.light-mode .widget { background-color: #f7f9f9; }
+        body.light-mode .trending-item:hover { background-color: rgba(15, 20, 25, 0.03); }
+        body.light-mode .toggle-switch .slider { background-color: #cfd9de; }
+        body.light-mode .settings-select { background-color: #eff3f4; color: #0f1419; border-color: #cfd9de;}
+        body.light-mode .mobile-nav { background-color: #fff; border-color: #eff3f4; }
+        body.light-mode .chat-action-btn:hover { color: #0f1419; }
+
+        #authModal .input-group { background: #000; transition: border-color 0.3s; }
+        body.light-mode #authModal .input-group { background: #fff; }
+        #authModal .post-btn { transition: opacity 0.2s; }
+        #authModal .post-btn:hover { opacity: 0.8; }
